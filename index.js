@@ -16,13 +16,6 @@ const con = mysql.createConnection({
 	"database" : "student29march24"
 });
 
-const con = mysql.createConnection({                                                  
-	"host" : "sql6.freesqldatabase.com",
-	"user" : "sql6705587",
-	"password" : "Vt3MWhT9MW",
-	"database" : "sql6705587"
-});
-
 const storage = multer.diskStorage({
 destination: (req, file, cb) => {
 	cb(null, 'uploads/');
